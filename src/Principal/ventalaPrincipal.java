@@ -45,6 +45,13 @@ public class ventalaPrincipal extends JFrame {
 		
 		JButton btnEjercicio3 = new JButton("Ejercicio3");
 		btnEjercicio3.setBounds(122, 150, 108, 23);
+		btnEjercicio3.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Ejercicio3 ejercicio3=new Ejercicio3();
+				ejercicio3.setVisible(true);
+				ejercicio3.setSize(700, 450);
+			}
+		});
 		getContentPane().add(btnEjercicio3);
 	}
 	

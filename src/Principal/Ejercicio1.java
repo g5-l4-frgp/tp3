@@ -6,15 +6,12 @@ import javax.swing.JLabel;
 import java.awt.Color;
 import java.awt.Font;
 import javax.swing.SwingConstants;
-import javax.xml.bind.Validator;
-
-import org.omg.CORBA.PUBLIC_MEMBER;
-
 import javax.swing.JTextField;
 import javax.swing.JButton;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
+@SuppressWarnings("serial")
 public class Ejercicio1 extends JFrame{
 	private JTextField txtNombre;
 	private JTextField txtApellido;
